@@ -1,8 +1,10 @@
 import express, { Express, Request, Response } from 'express'
 import http from 'http'
 import mongoose from 'mongoose'
+
 import { config } from './config/config'
 import Logging from './library/Logging'
+import userRoutes from './routes/user'
 
 const router = express()
 
@@ -58,6 +60,8 @@ const StartServer = () => {
   router.get('/ping', (req, res, next) =>
     res.status(200).json({ message: 'pong' })
   )
+
+  router.use('/users', userRoutes)
 
   router.use((req, res, next) => {
     const error = new Error('not found')
