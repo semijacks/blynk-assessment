@@ -1,0 +1,23 @@
+.summaryOrderContainer {
+  flex: 50%;
+  height: 90vh;
+  padding-left: 23rem;
+  padding-right: 5rem;
+  padding-top: 3rem;
+}
+
+.summaryOrderHeading {
+  font-size: 1.5rem;
+}
+
+.summaryOrderDescription {
+  color: #667085;
+  padding-right: 3rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .paymentDetailsContainer {
+    flex: auto;
+    height: auto;
+  }
+}

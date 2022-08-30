@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
+import { PaymentDetails } from '../components/PaymentDetails'
+import { SummaryOrder } from '../components/SummaryOrder'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -13,7 +15,10 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+        <SummaryOrder />
+        <PaymentDetails />
+      </main>
 
       <footer className={styles.footer}></footer>
     </div>
