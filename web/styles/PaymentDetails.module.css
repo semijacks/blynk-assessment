@@ -1,0 +1,24 @@
+.paymentDetailsContainer {
+  flex: 50%;
+  background-color: #f9fafb;
+  height: 90vh;
+  padding-left: 5rem;
+  padding-right: 23rem;
+  padding-top: 3rem;
+}
+
+.paymentDetailsHeading {
+  font-size: 1.5rem;
+}
+
+.paymentDetailsDescription {
+  color: #667085;
+  padding-right: 3rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .paymentDetailsContainer {
+    flex: auto;
+    height: auto;
+  }
+}

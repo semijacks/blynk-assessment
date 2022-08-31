@@ -1,0 +1,49 @@
+.internationalShippingText {
+  color: #667085;
+}
+
+.shippingMethodContainer {
+  display: flex;
+  align-items: center;
+  outline: 1px solid #1a1919;
+  border-radius: 10px;
+  margin: 3rem 0;
+  background-color: #f9fafb;
+  padding: 0.5rem 1rem;
+}
+
+.shippingMethodDetails {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.shippingMethodDescription {
+  display: flex;
+  gap: 18rem;
+  /* flex-direction: column;
+  justify-content: center;
+  gap: 0; */
+}
+
+.shippingMethodDeliveryCompany {
+  font-size: 1.2rem;
+  color: #101828;
+}
+
+.shippingMethodDeliveryTime {
+  font-size: 1rem;
+  color: #b5bccb;
+  font-weight: 600;
+}
+
+.shippingMethodPricing {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.shippingMethodPricingText {
+  font-size: 1.2rem;
+  font-weight: 700;
+}

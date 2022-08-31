@@ -1,0 +1,28 @@
+.summaryOrderContainer {
+  flex: 50%;
+  padding-left: 6%;
+  padding-right: 5rem;
+  padding-top: 3rem;
+}
+
+.summaryOrderHeading {
+  font-size: 1.5rem;
+}
+
+.summaryOrderDescription {
+  color: #667085;
+  max-width: 400px;
+}
+
+.productContainer {
+  outline: 1px solid #d0d5dd;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .paymentDetailsContainer {
+    flex: auto;
+    height: auto;
+  }
+}
