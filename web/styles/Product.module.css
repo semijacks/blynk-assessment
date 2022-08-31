@@ -1,0 +1,44 @@
+.product {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.productDetails {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.productDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productName {
+  font-size: 1.2rem;
+  color: #101828;
+  max-width: 290px;
+}
+
+.productPricing {
+  display: flex;
+  gap: 5px;
+}
+
+.currentPrice {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: #96a0b5;
+  font-size: 1rem;
+}
+
+.productSizes {
+  color: #96a0b5;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
