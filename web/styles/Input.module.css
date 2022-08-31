@@ -1,0 +1,50 @@
+.inputContainer {
+}
+
+.inputLabel {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.inputTextContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: 1px solid #d0d5dd;
+  padding: 0 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  background-color: white;
+}
+
+.inputText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 0.7rem;
+}
+
+.inputIcon {
+  color: #a9b2c3;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.input {
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+}
+
+.inputCheck {
+  background-color: #d1fadf;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 12px;
+}

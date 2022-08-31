@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/PaymentDetails.module.css'
+import { Input } from './Input'
 
 const PaymentDetails = () => {
   return (
@@ -8,6 +9,7 @@ const PaymentDetails = () => {
       <p className={styles.paymentDetailsDescription}>
         Complete your item purchase by providing your order payment details
       </p>
+      <Input />
     </div>
   )
 }
