@@ -57,6 +57,8 @@ const StartServer = () => {
     next()
   })
 
+  router.get('/', (req, res, next) => res.status(200).json({ message: 'pong' }))
+
   router.get('/ping', (req, res, next) =>
     res.status(200).json({ message: 'pong' })
   )

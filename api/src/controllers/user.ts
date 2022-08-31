@@ -69,7 +69,6 @@ const login = (req: Request, res: Response, next: NextFunction) => {
   const { email, password } = req.body
 
   User.findOne({ email })
-    .select('-password')
     .exec()
     .then((user) => {
       if (!user) {
